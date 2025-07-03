@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: 'Concert One', cursive;
+  background: linear-gradient(to right, #1f1c2c, #928dab); /* smooth gradient */
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  min-height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 10px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.drummer {
+  width: 300px;
+  max-width: 90%;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+}
+
+.drum-kit {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.drum {
+  cursor: pointer;
+  transition: transform 0.2s;
+  padding: 10px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.drum:hover {
+  transform: scale(1.1);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.drum img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.drum p {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #f0f0f0;
+}
